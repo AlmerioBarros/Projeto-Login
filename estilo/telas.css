@@ -1,0 +1,57 @@
+
+
+@media screen  and (min-width: 768px) and (max-width: 992px) {
+    section{
+        width: 70vw;
+
+        transition: width 0.3s,heigth 0.3s;
+        transition-timing-function: ease;
+
+    }
+    div#imagem{
+        float: left;
+
+        width: 30%;
+        height: 100%;
+    }
+    div#login{
+        float: right;
+
+        width: 70%;
+        height: 100%;
+    }
+    div#login h1{
+        font-size: 1.8em;
+    }
+    div#login > p{
+        padding: 10px 0px;
+        font-size: 1.2em;
+    }
+}
+@media screen and (min-width: 992px){
+    section{
+    width: 70vw;
+
+    transition: width 0.3s,heigth 0.3s;
+    transition-timing-function: ease;
+
+    }
+    div#imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+
+    }
+    div#login{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    div#login h1{
+        font-size: 2em;
+    }
+    div#login > p{
+        padding: 10px 0px;
+        font-size: 1.2em;
+    }
+}
