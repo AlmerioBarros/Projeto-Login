@@ -55,3 +55,44 @@ div#login > p{
     padding: 10px 0px;
     font-size: 0.9em;
 }
+form>div.campo{
+    background-color: var(--cor01);
+}
+form>input[type = submit]{
+    display: block;
+
+    width: 100%;
+    height: 35px;
+    background-color: var(--cor02);
+
+    border: 0px;
+    border-radius: 5px;
+
+}
+form>input[type = submit]:hover{
+    background-color: #4ebebb;
+    cursor: pointer;
+}
+form>a{
+    display: block;
+
+    width: 100%;
+    height: 35px;
+    background-color:white;
+
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+
+    margin-top: 5px;
+
+    text-decoration: none;
+    color: black;
+
+}
+form>a:hover{
+    background-color: #4ebebb ;
+
+}
+form>a>i.material-symbols-outlined{
+    font-size: 1.2em;
+}
